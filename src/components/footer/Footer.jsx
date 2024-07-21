@@ -5,17 +5,18 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col px-3 py-4 justify-between items-center bg-[#232323] sm:px-10 md:px-16 lg:px-24 text-white font-Inter">
-      <div className="flex flex-col items-center">
-        <p className="font-bold italic text-3xl">rbce</p>
-        <ul className="list-none flex flex-col justify-center items-center gap-2 my-2">
+    <footer className="flex flex-col flex-wrap px-3 py-4 justify-between items-center bg-[#232323] text-white font-Inter  absolute bottom-0 w-full md:flex-row sm:px-10 md:px-16 lg:px-24">
+      <div className="flex flex-wrap flex-col items-center justify-center w-full sm:flex-row sm:gap-4 sm:justify-between md:w-fit">
+        <p className="font-bold italic text-3xl tracking-tighter sm:font-extrabold ">rbce</p>
+        <ul className="list-none flex flex-col justify-center items-center gap-2 my-2 sm:flex-row sm:gap-4">
           <li className="hover:text-[#00923E]"><Link to="nossos-projetos">projetos</Link></li>
           <li className="hover:text-[#00923E]"><Link to="quem-somos">quem somos</Link></li>
           <li className="hover:text-[#00923E]"><Link to="timeline">nossa trajetória</Link></li>
         </ul>
       </div>
-      <div className="mt-3 mb-6">
-        <ul className="flex items-center justify-between gap-5">
+      <div className="mt-3 mb-6 sm:w-full justify-end sm:flex sm:justify-between md:w-fit">
+
+        <ul className="flex items-center gap-5 w-full sm:justify-center">
           <li>
             <a href="https://www.facebook.com/" aria-label="RBCE Facebook Page" target="_blank">
               <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +40,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <Link to="time-de-desenvolvimento" className="text-sm underline opacity-60">desenvolvido por Ana, Filipe, Samuel e Yan</Link>
+      <Link to="time-de-desenvolvimento" className="text-sm underline opacity-60 md:self-end md:w-full md:text-right">desenvolvido por Ana, Filipe, Samuel e Yan</Link>
     </footer>
   );
 }
