@@ -1,6 +1,6 @@
 # RBCE Project
 
-This project aims to develop a webpage an ONG - Rede Brasileira de Cooperação de Emergências. Our goal is to create a platform that facilitates communication and engagement with the community, as well as promotes the initiatives and projects of RBCE. We use HTML, CSS, and Tailwind to structure and style the site. TypeScript and React are used to develop dynamic and interactive functionalities.
+This project aims to develop a webpage for an ONG - Rede Brasileira de Cooperação de Emergências. Our goal is to create a platform that facilitates communication and engagement with the community, as well as promotes the initiatives and projects of RBCE. We use HTML, CSS, and Tailwind to structure and style the site. TypeScript and React are used to develop dynamic and interactive functionalities.
 
 ### How to Run the Application
 

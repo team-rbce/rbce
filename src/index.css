@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'LibreFranklinItalic';
+  font-style: italic;
+  src: url('./fonts/libreFranklin/LibreFranklin-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  /* font-weight: 400; */
+  src: url('./fonts/libreFranklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 :root {
   background-color: #19181F;
