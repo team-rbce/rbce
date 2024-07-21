@@ -10,6 +10,10 @@
   src: url('./fonts/libreFranklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter/Inter_wght.ttf') format('truetype');
+}
 
 @tailwind base;
 @tailwind components;

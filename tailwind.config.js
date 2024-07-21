@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         LibreFranklin: ['LibreFranklin'],
         LibreFranklinItalic: ['LibreFranklinItalic'],
+        Inter: ['Inter'],
       },
     },
   },
