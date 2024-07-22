@@ -1,13 +1,9 @@
 /* eslint-disable max-len */
 import React from 'react';
-import './Header.css';
-import { Link } from 'react-router-dom';
+import Menu from './Menu';
+import Nav from './Nav';
 
 export default function Header() {
-  const handleOpenMenu = () => {
-    const menu = document.querySelector('.container');
-    menu.classList.toggle('change');
-  };
   return (
     <header className="flex px-3 py-4 justify-between items-center bg-[#fafafa] sm:px-10 md:px-16 lg:px-24">
       <div className="flex items-center gap-2 text-[#3c4c41]">
@@ -34,16 +30,8 @@ export default function Header() {
         <h1 className="font-LibreFranklinItalic font-black text-4xl tracking-tighter">rbce</h1>
       </div>
       <div className="font-LibreFranklin text-[#232323]">
-        <button className="container flex sm:hidden" onClick={ handleOpenMenu } aria-label="Toggle Menu">
-          <div className="bar1" />
-          <div className="bar2" />
-          <div className="bar3" />
-        </button>
-        <ul className="hidden gap-4 text-lg list-none sm:flex lg:text-xl">
-          <li className="hover:text-[#00923E]"><Link to="nossos-projetos">projetos</Link></li>
-          <li className="hover:text-[#00923E]"><Link to="quem-somos">quem somos</Link></li>
-          <li className="hover:text-[#00923E]"><Link to="timeline">nossa trajetória</Link></li>
-        </ul>
+        <Menu />
+        <Nav />
       </div>
     </header>
   );
