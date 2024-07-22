@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-export default function NavItem({ children }) {
+export default function HeaderNavItem({ children }) {
   return (
     <NavLink
       to={ children.toLowerCase().replace(' ', '-') }
@@ -14,6 +14,6 @@ export default function NavItem({ children }) {
   );
 }
 
-NavItem.propTypes = {
+HeaderNavItem.propTypes = {
   children: PropTypes.string.isRequired,
 };

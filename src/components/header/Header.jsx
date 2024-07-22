@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
-import Menu from './Menu';
-import Nav from './Nav';
+import HeaderMenu from './HeaderMenu';
+import HeaderNav from './HeaderNav';
 
 export default function Header() {
   return (
@@ -30,8 +30,8 @@ export default function Header() {
         <h1 className="font-LibreFranklinItalic font-black text-4xl tracking-tighter">rbce</h1>
       </div>
       <div className="font-LibreFranklin text-[#232323]">
-        <Menu />
-        <Nav />
+        <HeaderMenu />
+        <HeaderNav />
       </div>
     </header>
   );
