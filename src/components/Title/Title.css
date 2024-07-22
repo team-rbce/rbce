@@ -1,0 +1,11 @@
+h2::before {
+  content: "";
+  display: block;
+  width: 2.5px;
+  height: 100%;
+  background-color: #232323;
+  transform: rotate(15deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

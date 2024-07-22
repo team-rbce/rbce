@@ -26,8 +26,12 @@
   margin: 0;
 }
 
+body {
+  height: 100%;
+}
+
 :root {
-  background-color: #19181F;
+  background-color: #fafafa;
 
   font-family: Poppins;
   line-height: 1.5;
