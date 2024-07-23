@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React, { useState } from 'react';
 import './input.css';
 import PropTypes from 'prop-types';
@@ -20,7 +19,7 @@ export default function Input({ children, onChange, name, value, verifyValue, ty
 
   return (
     <label className="text-sm font-normal relative" htmlFor={ name }>
-      <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-medium text-slate-700 md:text-sm lg:text-base">
+      <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-medium text-slate-700 md:text-sm">
         {children}
       </span>
       {isTextArea ? (

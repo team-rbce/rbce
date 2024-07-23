@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-max-depth */
-/* eslint-disable max-len */
+
 import React from 'react';
 
 export default function FooterSocialLinks() {
