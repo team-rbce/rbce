@@ -30,7 +30,7 @@ export default function EmailModalForm({ setIsModalOpen }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setUserMessage(initialUserMessage);
+    /* setUserMessage(initialUserMessage); */
     /* setIsModalOpen((prevState) => !prevState); */
   };
 
@@ -48,7 +48,7 @@ export default function EmailModalForm({ setIsModalOpen }) {
 
       <button
         type="submit"
-        className="text-white w-full py-3 rounded-md bg-color-tertiary hover:bg-color-primary mt-4 text-sm font-semibold shadow-custom disabled:bg-[black] disabled:cursor-not-allowed"
+        className="text-white w-full py-3 rounded-md bg-color-tertiary hover:bg-color-primary mt-4 text-sm font-semibold shadow-custom disabled:bg-color-logo-loghter disabled:cursor-not-allowed"
         disabled={ !verifyName(userMessage.name) || !verifyEmail(userMessage.email) || !verifyMessage(userMessage.message) }
       >
         Enviar
