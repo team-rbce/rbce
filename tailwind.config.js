@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'custom': '4px 4px 24px rgba(120, 120, 120, 0.1)',
+        custom: '4px 4px 24px rgba(120, 120, 120, 0.1)',
+        'bottom-only': '0 8px 8px rgba(0, 0, 0, 0.2)',
       },
       colors: {
         'color-primary': '#00621D',
@@ -21,7 +22,7 @@ module.exports = {
         'border-primary': '#787878',
         'border-invalid': '#ef4444',
         /*
-        
+
         verificar se essas cores são necessárias
 
         'color-background-medium': '#444444',
