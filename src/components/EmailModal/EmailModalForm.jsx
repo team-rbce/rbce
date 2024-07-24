@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import Input from '../Input/Input';
 
 export default function EmailModalForm({ setIsModalOpen }) {
-  console.log(setIsModalOpen);
-
   const initialUserMessage = {
     name: '',
     email: '',
