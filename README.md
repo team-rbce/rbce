@@ -6,11 +6,11 @@ This project aims to develop a webpage for an ONG - Rede Brasileira de Cooperaç
 
 1. Clone the project from GitHub:
     ```bash
-    git clone https://github.com/bc-fullstack-04/samuel-deotti-frontend.git
+    git clone https://github.com/team-rbce/rbce.git
     ```
    or
     ```bash
-    git clone git@github.com:bc-fullstack-04/samuel-deotti-frontend.git
+    git clone git@github.com:team-rbce/rbce.git
     ```
 
 2. Navigate to the project directory:
