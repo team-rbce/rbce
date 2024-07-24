@@ -14,12 +14,12 @@ export default function Input({ children, onChange, name, value, verifyValue, ty
   const [isFirstRender, setIsFirstRender] = useState(true);
 
   const setBorderColor = () => {
-    return (isFirstRender || isValueValid) ? 'ring-[#787878]' : 'ring-red-500 focus:outline-red-500';
+    return (isFirstRender || isValueValid) ? 'ring-border-primary' : 'ring-border-invalid focus:outline-border-invalid';
   };
 
   return (
     <label className="text-sm font-normal relative" htmlFor={ name }>
-      <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-medium text-slate-700 md:text-sm">
+      <span className="after:content-['*'] after:ml-0.5 after:text-border-invalid block text-xs font-medium text-slate-700 md:text-sm">
         {children}
       </span>
       {isTextArea ? (
@@ -49,7 +49,7 @@ export default function Input({ children, onChange, name, value, verifyValue, ty
         />
       )}
 
-      {!isFirstRender && !isValueValid && <span className="absolute bottom-0 left-0 ml-2 text-xs text-red-500">{errors[name]}</span>}
+      {!isFirstRender && !isValueValid && <span className="absolute bottom-0 left-0 ml-2 text-xs text-border-invalid">{errors[name]}</span>}
     </label>
   );
 }

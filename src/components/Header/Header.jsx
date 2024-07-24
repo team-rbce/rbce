@@ -4,7 +4,7 @@ import HeaderNav from './HeaderNav';
 
 export default function Header() {
   return (
-    <header className="flex px-3 py-4 justify-between items-center bg-[#fafafa] sm:px-10 md:px-16 lg:px-24">
+    <header className="flex px-3 py-4 justify-between items-center bg-background-primary-light sm:px-10 md:px-16 lg:px-24">
       <div className="flex items-center gap-2 text-[#3c4c41]">
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="24.7939" y="12.0615" width="18.8092" height="6.89231" fill="#9BD9A9" />
@@ -28,7 +28,7 @@ export default function Header() {
         </svg>
         <h1 className="font-LibreFranklinItalic font-black text-4xl tracking-tighter">rbce</h1>
       </div>
-      <div className="font-LibreFranklin text-[#232323]">
+      <div className="font-LibreFranklin text-background-primary-dark">
         <HeaderMenu />
         <HeaderNav />
       </div>

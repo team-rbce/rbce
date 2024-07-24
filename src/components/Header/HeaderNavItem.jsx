@@ -7,7 +7,7 @@ export default function HeaderNavItem({ children }) {
     <NavLink
       to={ children.toLowerCase().replace(' ', '-') }
       className={ ({ isActive }) => `${isActive
-        ? 'font-bold text-[#00923E]' : ''} hover:text-[#00923E]` }
+        ? 'font-bold text-color-tertiary' : ''} hover:text-color-tertiary` }
     >
       {children}
     </NavLink>
