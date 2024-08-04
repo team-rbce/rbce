@@ -8,10 +8,10 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <main className="px-3 py-4 sm:px-10 md:px-16 lg:px-24 h-full relative">
+      <main className="">
         <Outlet />
       </main>
-      <EmailButtonModal />
+      {/* <EmailButtonModal /> */}
       <Footer />
     </>
   );
