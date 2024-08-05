@@ -24,7 +24,7 @@ export default function HomeCarousel() {
   };
 
   return (
-    <Carousel responsive={ responsive } showDots keyBoardControl customTransition="all .5" transitionDuration={ 500 } infinite autoPlay draggable={ false }>
+    <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable={ false }>
 
       <HomeCard imagePath="photo01" />
       <HomeCard imagePath="photo01" />
