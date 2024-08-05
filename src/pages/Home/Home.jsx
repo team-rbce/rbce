@@ -2,6 +2,8 @@ import React from 'react';
 
 import Title from '../../components/Title/Title';
 import HomeCarousel from '../../components/Carousel/HomeCarousel/HomeCarousel';
+import ProjectsCaroulsel from '../../components/Carousel/ProjectsCarousel/ProjectsCaroulsel';
+import DataSection from '../../components/DataSection/DataSection';
 
 export default function Home() {
   return (
@@ -16,27 +18,12 @@ export default function Home() {
         </div>
         <div className="mb-20">
           <Title>Alguns dados importantes</Title>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 font-Inter">
-            <div className="ring-1 ring-color-tertiary p-4 rounded-lg">
-              <h3 className="text-lg font-Inter font-bold">1.000</h3>
-              <p className="text-base font-Inter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, repudiandae!</p>
-            </div>
-            <div className="ring-1 ring-color-tertiary p-4 rounded-lg">
-              <h3 className="text-lg font-Inter font-bold">1.000</h3>
-              <p className="text-base font-Inter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, repudiandae!</p>
-            </div>
-            <div className="ring-1 ring-color-tertiary p-4 rounded-lg">
-              <h3 className="text-lg font-Inter font-bold">1.000</h3>
-              <p className="text-base font-Inter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, repudiandae!</p>
-            </div>
-            <div className="ring-1 ring-color-tertiary p-4 rounded-lg">
-              <h3 className="text-lg font-Inter font-bold">1.000</h3>
-              <p className="text-base font-Inter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, repudiandae!</p>
-            </div>
-          </div>
-
+          <DataSection />
         </div>
-        <Title>Principais projetos</Title>
+        <div className="mb-20">
+          <Title>Principais projetos</Title>
+          <ProjectsCaroulsel />
+        </div>
         <Title>Parceiros</Title>
         <Title>Redes sociais</Title>
 
