@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import Title from '../../components/Title/Title';
 import HomeCarousel from '../../components/Carousel/HomeCarousel/HomeCarousel';
 import ProjectsCaroulsel from '../../components/Carousel/ProjectsCarousel/ProjectsCaroulsel';
@@ -9,7 +10,7 @@ export default function Home() {
   return (
     <div className="relative">
       <HomeCarousel />
-      <div className="px-3 py-4 sm:px-10 md:px-16 lg:px-24 h-full">
+      <div className="px-3 py-4 sm:px-10 md:px-16 lg:px-24 h-full font-Inter">
         <div className="mb-20">
           <Title>Nossa causa</Title>
           <p className="text-lg font-Inter text-justify">
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="mb-20">
           <Title>Principais projetos</Title>
           <ProjectsCaroulsel />
+          <Link to="projetos" className="text-right block lowercase after:content-['→'] text-color-tertiary after:text-base font-medium mt-4">Ver Tudo</Link>
         </div>
         <Title>Parceiros</Title>
         <Title>Redes sociais</Title>

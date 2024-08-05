@@ -22,6 +22,7 @@ export default function HomeCarousel() {
       items: 1,
     },
   };
+
   return (
     <Carousel responsive={ responsive } showDots keyBoardControl customTransition="all .5" transitionDuration={ 500 } infinite autoPlay draggable={ false }>
 
