@@ -22,7 +22,7 @@ export default function ProjectsCaroulsel() {
     },
   };
   return (
-    <Carousel responsive={ responsive } showDots keyBoardControl customTransition="all .5" transitionDuration={ 500 } infinite draggable={ false }>
+    <Carousel responsive={ responsive } showDots keyBoardControl customTransition="all .5" transitionDuration={ 500 } infinite draggable={ false } renderDotsOutside arrows>
 
       <div className="h-72 bg-gray-500 w-full" />
       <div className="h-72 bg-gray-200 w-full" />

@@ -24,13 +24,16 @@ export default function HomeCarousel() {
   };
 
   return (
-    <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable={ false }>
+    <div className="pb-8 relative">
+      <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable={ false }>
 
-      <HomeCard imagePath="photo01" />
-      <HomeCard imagePath="photo01" />
-      <HomeCard imagePath="photo01" />
-      <HomeCard imagePath="photo01" />
+        <HomeCard imagePath="photo01" />
+        <HomeCard imagePath="photo01" />
+        <HomeCard imagePath="photo01" />
+        <HomeCard imagePath="photo01" />
 
-    </Carousel>
+      </Carousel>
+
+    </div>
   );
 }
