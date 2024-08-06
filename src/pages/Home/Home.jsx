@@ -21,9 +21,9 @@ export default function Home() {
           <Title>Alguns dados importantes</Title>
           <DataSection />
         </div>
-        <div className="mb-20">
+        <div className="mb-12">
           <Title>Principais projetos</Title>
-          <ProjectsCaroulsel />
+          <div className="relative pb-8"><ProjectsCaroulsel /></div>
           <Link to="projetos" className="text-right block lowercase after:content-['→'] text-color-tertiary after:text-base font-medium mt-4">Ver Tudo</Link>
         </div>
         <Title>Parceiros</Title>
