@@ -23,7 +23,9 @@ export default function Home() {
         </div>
         <div className="mb-12">
           <Title>Principais projetos</Title>
-          <div className="relative pb-8"><ProjectsCaroulsel /></div>
+          <div className="relative pb-8">
+            <ProjectsCaroulsel />
+          </div>
           <Link to="projetos" className="text-right block lowercase after:content-['→'] text-color-tertiary after:text-base font-medium mt-4">Ver Tudo</Link>
         </div>
         <Title>Parceiros</Title>
