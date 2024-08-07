@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import './aa.css';
 
 export default function ProjectsCaroulsel() {
   const responsive = {
@@ -26,7 +25,7 @@ export default function ProjectsCaroulsel() {
   return (
 
     <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } draggable renderDotsOutside arrows removeArrowOnDeviceType={ ['tablet', 'mobile'] }>
-      <div className="h-72 bg-red-500 w-full rounded-2xl shadow-sm" />
+      <div className="h-72 bg-red-200 w-full rounded-2xl shadow-sm" />
       <div className="h-72 bg-gray-200 w-full rounded-2xl shadow-sm" />
       <div className="h-72 bg-gray-300 w-full rounded-2xl shadow-sm" />
 

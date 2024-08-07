@@ -29,7 +29,10 @@ export default function Home() {
           <Link to="projetos" className="text-right block lowercase after:content-['→'] text-color-tertiary after:text-base font-medium mt-4">Ver Tudo</Link>
         </div>
         <Title>Parceiros</Title>
-        <Title>Redes sociais</Title>
+
+        <div>
+          <Title>Redes sociais</Title>
+        </div>
 
       </div>
     </div>
