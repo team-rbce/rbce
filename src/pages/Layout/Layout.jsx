@@ -1,8 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
-import EmailButtonModal from '../../components/EmailModal/EmailButtonModal';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+/* import EmailButtonModal from '../../components/EmailModal/EmailButtonModal'; */
 
 export default function Layout() {
   return (
