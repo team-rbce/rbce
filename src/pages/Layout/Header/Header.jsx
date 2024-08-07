@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HeaderMenu from './HeaderMenu';
 import HeaderNav from './HeaderNav';
-import Logo from '../Logo/Logo';
+import Logo from '../../../components/Logo/Logo';
 import HeaderNavMenu from './HeaderNavMenu';
 
 export default function Header() {

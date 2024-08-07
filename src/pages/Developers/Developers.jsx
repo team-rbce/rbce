@@ -37,7 +37,7 @@ export default function Developers() {
   return (
     <div className="w-full h-full px-3 py-4 sm:px-10 md:px-16 lg:px-24">
       <Title>Time de desenvolvimento</Title>
-      <div className="flex flex-col gap-8 my-12">
+      <div className="flex flex-col gap-8 my-12 items-center ">
 
         {developers.map((developer, index) => <DevelopersCard key={ developer.name + index } { ...developer } />)}
 

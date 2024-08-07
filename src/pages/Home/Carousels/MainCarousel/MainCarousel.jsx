@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import HomeCard from './HomeCard';
+import MainCard from './MainCard';
 
-export default function HomeCarousel() {
+export default function MainCarousel() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -25,12 +25,12 @@ export default function HomeCarousel() {
 
   return (
     <div className="pb-8 relative">
-      <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable={ false }>
+      <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable removeArrowOnDeviceType={ ['mobile', 'tablet'] }>
 
-        <HomeCard imagePath="photo01" />
-        <HomeCard imagePath="photo01" />
-        <HomeCard imagePath="photo01" />
-        <HomeCard imagePath="photo01" />
+        <MainCard imagePath="photo01" />
+        <MainCard imagePath="photo01" />
+        <MainCard imagePath="photo01" />
+        <MainCard imagePath="photo01" />
 
       </Carousel>
 

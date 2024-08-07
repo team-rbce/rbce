@@ -2,14 +2,15 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title/Title';
-import HomeCarousel from '../../components/Carousel/HomeCarousel/HomeCarousel';
-import ProjectsCaroulsel from '../../components/Carousel/ProjectsCarousel/ProjectsCaroulsel';
-import DataSection from '../../components/DataSection/DataSection';
+
+import DataSection from './DataSection/DataSection';
+import ProjectsCaroulsel from './Carousels/ProjectsCarousel/ProjectsCaroulsel';
+import MainCarousel from './Carousels/MainCarousel/MainCarousel';
 
 export default function Home() {
   return (
     <div className="relative">
-      <HomeCarousel />
+      <MainCarousel />
       <div className="px-3 py-4 sm:px-10 md:px-16 lg:px-24 h-full font-Inter">
         <div className="mb-20">
           <Title>Nossa causa</Title>
