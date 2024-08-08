@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <main className="">
+      <main className="flex-1">
         <Outlet />
       </main>
       {/* Esta quebrado por enquanto */}
