@@ -7,6 +7,7 @@ export default function HeaderNav() {
       <HeaderNavItem>projetos</HeaderNavItem>
       <HeaderNavItem>quem somos</HeaderNavItem>
       <HeaderNavItem>nossa trajetoria</HeaderNavItem>
+      
     </nav>
   );
 }

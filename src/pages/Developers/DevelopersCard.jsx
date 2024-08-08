@@ -17,7 +17,7 @@ export default function DevelopersCard({ imagePath, name, description, socials }
       <div className="flex justify-center gap-2 mt-auto">
         {socials.map((social) => (
           <a href={ social } key={ social } target="_blank" aria-label="Social Link">
-            <img src="/linkedin.png" alt="" className="h-8 w-8" />
+            <img src="/linkedin.png" alt="social network page" className="h-8 w-8" />
           </a>
         ))}
       </div>
