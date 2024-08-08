@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import Input from '../Input/Input';
+import Input from '../../../components/Input/Input';
 
 export default function EmailModalForm({ setIsModalOpen }) {
   const initialUserMessage = {
