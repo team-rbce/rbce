@@ -2,17 +2,18 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
-/* import EmailButtonModal from '../../components/EmailModal/EmailButtonModal'; */
+import EmailButtonModal from './EmailModal/EmailButtonModal';
 
 export default function Layout() {
   return (
     <>
       <Header />
-      <main className="">
+      <main className="flex-1">
         <Outlet />
       </main>
-      {/* <EmailButtonModal /> */}
       <Footer />
+      {/* Esta quebrado por enquanto */}
+      <EmailButtonModal />
     </>
   );
 }

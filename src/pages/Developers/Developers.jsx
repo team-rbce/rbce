@@ -37,10 +37,12 @@ export default function Developers() {
   return (
     <div className="w-full h-full px-3 py-4 sm:px-10 md:px-16 lg:px-24">
       <Title>Time de desenvolvimento</Title>
-      <div className="flex flex-col gap-8 my-12 items-center ">
-
-        {developers.map((developer, index) => <DevelopersCard key={ developer.name + index } { ...developer } />)}
-
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:w-fit gap-6 my-12">
+        {developers.map((developer, index) => (
+          <div key={ developer.name + index } className="flex">
+            <DevelopersCard { ...developer } />
+          </div>
+        ))}
       </div>
     </div>
   );

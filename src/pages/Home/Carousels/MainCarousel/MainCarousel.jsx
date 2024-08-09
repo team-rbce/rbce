@@ -25,7 +25,7 @@ export default function MainCarousel() {
 
   return (
     <div className="pb-8 relative">
-      <Carousel responsive={ responsive } showDots keyBoardControl transitionDuration={ 500 } infinite autoPlay draggable removeArrowOnDeviceType={ ['mobile', 'tablet'] }>
+      <Carousel responsive={ responsive } keyBoardControl transitionDuration={ 500 } autoPlay draggable removeArrowOnDeviceType={ ['mobile'] } renderArrowsWhenDisabled={ false }>
 
         <MainCard imagePath="photo01" />
         <MainCard imagePath="photo01" />
