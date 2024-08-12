@@ -27,10 +27,10 @@ export default function MainCarousel() {
     <div className="pb-8 relative md:max-h-[calc(100vh-30vh)]">
       <Carousel responsive={ responsive } keyBoardControl transitionDuration={ 500 } autoPlay draggable removeArrowOnDeviceType={ ['mobile'] } renderArrowsWhenDisabled={ false }>
 
-        <MainCard imagePath="photo01" />
-        <MainCard imagePath="photo01" />
-        <MainCard imagePath="photo01" />
-        <MainCard imagePath="photo01" />
+        <MainCard imagePath="photo01" title="Chegaram os Licendiados RBCE!" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, ex fugiat nemo quos adipisci recusandae?" />
+        <MainCard imagePath="photo01" title="Chegaram os Licendiados RBCE!" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, ex fugiat nemo quos adipisci recusandae?" />
+        <MainCard imagePath="photo01" title="Chegaram os Licendiados RBCE!" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, ex fugiat nemo quos adipisci recusandae?" />
+        <MainCard imagePath="photo01" title="Chegaram os Licendiados RBCE!" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, ex fugiat nemo quos adipisci recusandae?" />
 
       </Carousel>
 
