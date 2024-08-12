@@ -16,7 +16,7 @@ function App() {
         {/* Colocar aqui a rota especifica e o componente referente a rota */}
 
         {/* <Route path="/sobre-nos" element={<About />} /> */}
-        {/* <Route path="/nossos-projetos" element={<About />} /> */}
+        {/* <Route path="/nossos-projetos" element={<About />} />
         {/* <Route path="/linha-do-tempo" element={<About />} /> */}
         <Route path="/time-de-desenvolvimento" element={ <Developers /> } />
       </Route>

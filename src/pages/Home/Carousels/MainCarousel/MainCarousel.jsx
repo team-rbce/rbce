@@ -24,7 +24,7 @@ export default function MainCarousel() {
   };
 
   return (
-    <div className="pb-8 relative">
+    <div className="pb-8 relative md:max-h-[calc(100vh-30vh)]">
       <Carousel responsive={ responsive } keyBoardControl transitionDuration={ 500 } autoPlay draggable removeArrowOnDeviceType={ ['mobile'] } renderArrowsWhenDisabled={ false }>
 
         <MainCard imagePath="photo01" />
