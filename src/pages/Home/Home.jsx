@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 import Title from '../../components/Title/Title';
-
 import DataSection from './DataSection/DataSection';
 import ProjectsCaroulsel from './Carousels/ProjectsCarousel/ProjectsCaroulsel';
 import MainCarousel from './Carousels/MainCarousel/MainCarousel';
